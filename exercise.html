@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>COVID-19 Updates!</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body onload="myFunction()">
+
+  <!-- Note -->
+  <!-- Header -->
+  <header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html">COVID-19 Updates</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="exercise.html">Exercises<span class="sr-only">(current)</span></a>
+          <!-- <a class="nav-item nav-link active" href="news.html">News</a>
+                    <a class="nav-item nav-link" href="index.html">Stats</a> -->
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
+
+
+  </header>
+  <div class="row containter-fluid">
+    <div class="col-md-12">
+    <h1>10 Exercises - 10 Mins</h1>
+    <p>This is a <strong>random work-out routine</strong> of 10 exercises each done for <strong>45 secs</strong> followed by a <strong>rest of 45 seconds</strong>. 
+      The workout routine is primarily focused on cardio activities and abs to get you sweating while at home during the COVID-19 period. 
+      In case you feel the below routine is stressful and impact you, please refresh the page and a new set of exercises will reflect.</p>
+    <p>Try to do <strong>three sets</strong> for more effectiveness.</p>
+  </div>
+  </div>
+  <div class="row container-fluid">
+    <!-- First Photo Grid-->
+    <div class="col-md-3">
+      <img id="img1" src="/images/plank.jpg" alt="Sandwich" style="width:auto">
+      <h3 id="exe1">Execise 1</h3>
+      <p>Primary muscle target group: <strong><span id="mus1"></span></strong></span></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img2" src="/images/plank.jpg" alt="Steak" style="width:auto">
+      <h3 id="exe2">Execise 2</h3>
+      <p>Primary muscle target group: <strong><span id="mus2"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img3" src="/images/plank.jpg" alt="Cherries" style="width:auto">
+      <h3 id="exe3">Execise 3</h3>
+      <p>Primary muscle target group: <strong><span id="mus3"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img4" src="/images/plank.jpg" alt="Pasta and Wine" style="width:auto">
+      <h3 id="exe4">Execise 4</h3>
+      <p>Primary muscle target group: <strong><span id="mus4"></span></strong></p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="row">
+    <div class="col-md-3">
+      <img id="img5" src="/images/plank.jpg" alt="Sandwich" style="width:auto">
+      <h3 id="exe5">Execise 5</h3>
+      <p>Primary muscle target group: <strong><span id="mus5"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img6" src="/images/plank.jpg" alt="Steak" style="width:auto">
+      <h3 id="exe6">Execise 6</h3>
+      <p>Primary muscle target group: <strong><span id="mus6"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img7" src="/images/plank.jpg" alt="Cherries" style="width:auto">
+      <h3 id="exe7">Execise 7</h3>
+      <p>Primary muscle target group: <strong><span id="mus7"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img8" src="/images/plank.jpg" alt="Pasta and Wine" style="width:auto">
+      <h3 id="exe8">Execise 8</h3>
+      <p>Primary muscle target group: <strong><span id="mus8"></span></strong></p>
+    </div>
+  </div>
+
+  <!-- Third Photo Grid-->
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-3">
+      <img id="img9" src="/images/plank.jpg" alt="Steak" style="width:auto">
+      <h3 id="exe9">Execise 9</h3>
+      <p>Primary muscle target group: <strong><span id="mus9"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+      <img id="img10" src="/images/plank.jpg" alt="Cherries" style="width:auto">
+      <h3 id="exe10">Execise 10</h3>
+      <p>Primary muscle target group: <strong><span id="mus10"></span></strong></p>
+    </div>
+    <div class="col-md-3">
+    </div>
+  </div>
+
+
+  <script src='main.js'></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <!-- Footer -->
+  </div>
+  <div class="row container-fluid">
+    <div class="footer col-md-12">
+      <p>Project created by Pranav Sharma to keep the viewer updated on the latest news and statistics around COVID-19
+        across the globe using different sources of data. This was created using <strong>News API</strong> &amp;
+        <strong>Rapid Api - Coronavirus Tracker</strong>.
+        Regular updates will follow. Feel free to share your feedback to pranavsharma1930@gmail.com. Happy to update
+        this with your thoughts and ideas.</p>
+      <p><strong>Stay Safe!</strong></p>
+    </div>
+</body>
+
+</html>
