@@ -107,3 +107,8 @@ table,th,td {
   .carousel-caption{
     background-color: rgba(170, 170, 170, 0.5);
   }
+
+  .exercise-content{
+    color:#000!important;
+    background-color:#f1f1f1!important
+  }
