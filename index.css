@@ -108,7 +108,26 @@ table,th,td {
     background-color: rgba(170, 170, 170, 0.5);
   }
 
-  .exercise-content{
+  w3-quarter{
+    float:left;
+    width:100%
+  }
+
+  .w3-padding-16{
+    padding-top:16px!important;
+    padding-bottom:16px!important
+  }
+
+  .test{
     color:#000!important;
     background-color:#f1f1f1!important
+  }
+
+  .carosel-img{
+    height: 500px;
+  }
+
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
   }
